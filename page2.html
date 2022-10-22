@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+        <header class="hat">
+                <div class="header__log">
+                <a href="index.html" class="tatar">
+                    <div class="sqr"><div class="header__logo"></div><div class="head3">Solaris
+                    </div></div>
+                </a>
+                </div>
+                <nav class="hnav">
+                    <ul class="hlist">
+                        <li >
+                          <a class="f" href="page2.html">
+                            <div class="b1">
+                            Tickets
+                            </div>
+                          </a>
+                        </li>
+                        <li >
+                          <a class="f" href="/">
+                            <div class="b1">
+                            Shop
+                            </div>
+                          </a>
+                        </li>
+                        <li >
+                          <a class="f" href="/">
+                            <div class="b1">
+                            Info
+                            </div>
+                          </a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="hnav">
+                    <ul class="hlist2">
+                        <li >
+                            <a class="f" href="/">
+                          <div class="b1">
+                          LogIn
+                          </div>
+                          </a>
+                        </li>
+                        <li >
+                          <a class="ff">
+                            <button class="b2" onclick="show('block')">
+                            SignIn
+                            </button>
+                            <div onclick="show('none')" id="gray"></div>
+                            </a>
+                        </li>
+                        <li>
+                    </ul>
+                </nav>
+        </header>
+        <main class="Kapibar">
+          <h1 class="hottr2">Designing tickets</h1>
+          <div class="buytickets">
+            <ul class="hlisttt">
+              <li class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"checked onclick="hide('flex')" id="rt2" id="rt3">
+                 <label class="form-check-label" for="flexRadioDefault1">
+                   Round trip
+                 </label>  
+              </li>
+              <li class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" onclick="hide('none')" id="rt2" id="rt3">
+                <label class="form-check-label" for="flexRadioDefault2">
+                   One Way
+                </label>
+              </li>
+            </ul>
+          <div class="lineee"></div>
+          <div class="panelka">
+            <ul class="hlisttt3">
+              <li class="sqr222">
+                <img src ="Images/SVG2/Navigation.svg">
+                <select class="headd55" aria-label="Default select example">
+                  <option selected>From Where?</option>
+                  <option value="1">Calistro</option>
+                  <option value="2">Moon</option>
+                  <option value="3">Mars</option>
+                  <option value="4">Earth</option>
+                </select>
+              </li>
+              <li class="sqr222"  id="rt2" >
+                <img src ="Images/SVG2/Navigation2.svg">
+                <select class="headd55" aria-label="Default select example" >
+                  <option selected>To Where?</option>
+                  <option value="1">Calistro</option>
+                  <option value="2">Moon</option>
+                  <option value="3">Mars</option>
+                  <option value="4">Earth</option>
+                </select>
+              </li>
+              <li class="sqr222">
+                <img src ="Images/SVG2/Calendar.svg">
+                <select class="headd55" aria-label="Default select example">
+                  <option selected>Departure</option>
+                  <option value="1">15.10</option>
+                  <option value="2">09.08</option>
+                  <option value="3">17.06</option>
+                </select>
+              </li>
+              <li class="sqr222" id="rt3">
+                <img src ="Images/SVG2/Calendar.svg">
+                <select class="headd55" aria-label="Default select example" >
+                  <option selected>Returne</option>
+                  <option value="1">15.10</option>
+                  <option value="2">09.08</option>
+                  <option value="3">17.06</option>
+                </select>
+              </li>
+              <li class="sqr222">
+                <img src ="Images/SVG2/Sitting.svg">
+                <select class="headd55" aria-label="Default select example">
+                  <option selected>1 Trveler, Coach</option>
+                  <option value="1">2 Trveler, Coach</option>
+                  <option value="2">3 Trveler, Coach</option>
+                  <option value="3">4 Trveler, Coach</option>
+                </select>
+              </li>
+            </ul>
+                <a href="#">
+                <button class="buut" type="button">
+                  <div class="search">Search</div>
+                </button>
+                </a>
+            </div>
+          </div>
+          <h1 class="hottr">Hot tours!</h1>
+          <div class="cards">
+            <div class="Mar">
+              <img src = "/Images/SVG2/Moon.png" class="Moon1">
+              <h1 class="hh1">Ticket to the Moon!</h1>
+              <ul class="cardlist">
+                <li class="sqr22">
+                  <img src="./Images/SVG2/Security.svg"><div class="headd5">The most secured trip</div>
+                </li>
+                <li class="sqr22">
+                  <img src="./Images/SVG2/verified.svg"><div class="headd5">Only 3 minutes to fly</div>
+                </li>
+                <li class="sqr22">
+                  <img src="./Images/SVG2/verified.svg"><div class="headd5">Historical center</div>
+                </li>
+              </ul>
+              <a class="arrow1" href="/"><img src="/Images/SVG2/Arrow3.svg"></a>
+            </div>
+            <div class="Mar">
+              <img src = "/Images/SVG2/Mars.png" >
+              <h1 class="hh1">Live on Mars</h1>
+              <ul class="cardlist">
+                <li class="sqr22">
+                  <img src="./Images/SVG2/Security.svg"><div class="headd5">The most secured trip</div>
+                </li>
+                <li class="sqr22">
+                  <img src="./Images/SVG2/verified.svg"><div class="headd5">Only 3 minutes to fly</div>
+                </li>
+                <li class="sqr22">
+                  <img src="./Images/SVG2/verified.svg"><div class="headd5">Historical center</div>
+                </li>
+              </ul>
+              <a class="arrow2" href="/"><img src="/Images/SVG2/Arrow3.svg"></a>
+            </div>
+            <div class="Mar">
+              <img src = "/Images/SVG2/Calistro.png" >
+              <h1 class="hh1">Calistro...</h1>
+              <ul class="cardlist">
+                <li class="sqr22">
+                  <img src="./Images/SVG2/Security.svg"><div class="headd5">The most secured trip</div>
+                </li>
+                <li class="sqr22">
+                  <img src="./Images/SVG2/verified.svg"><div class="headd5">Only 3 minutes to fly</div>
+                </li>
+                <li class="sqr22">
+                  <img src="./Images/SVG2/verified.svg"><div class="headd5">Historical center</div>
+                </li>
+              </ul>
+              <a class="arrow" href="/"><img src="/Images/SVG2/Arrow3.svg"></a>
+            </div>
+          </div>
+
+        </main>  
+        <div id="gray"></div>
+    <div id="window">
+        <img class="close" src="/Images/SVG2/Cross.svg" onclick="show('none')">
+    <div class ="form">    
+    <h1 class="mfuck"><center>Registration</center></h1>
+    <form action="regis.html" name="f1">
+        <center><input type="text" placeholder="Name" name="name1" class="input3"></center>
+        <center><input type="text" placeholder="Number" name="name1" class="input3"></center>
+        <center><input type="text" placeholder="Gmail" name="name1" class="input3"></center>
+        <center><input type="text" placeholder="Nickname" name="name1" class="input3"></center>
+        <center><input type="password" placeholder="Image pass" name="name1" class="input33"></center>
+        <center><input type="submit" value="Registration" name="sab" class="inputbut"></center>
+    </form>
+    </div>
+    </div>  
+            <footer class="foot">
+                <nav class="hnav22">
+                  <ul class="hlist44">
+                      <li >
+                        <div class="sqr"><div class="header__logo"></div><div class="head3">Solaris
+                        </div></div>
+                      </li>
+                      <li >
+                          <p class = "sfa">Karlburg, str.R8bD, 22</p>
+                      </li>
+                      <li >
+                        <p class = "sfa2"><a href="tel:66-666-666-66-66">+66(666)666-66-66</a></p>
+                      </li>
+                      <li >
+                        <p class = "sfa2"><a href="mailto: solaris@space.com">solaris@space.com</a></p>
+                      </li>
+                  </ul>
+                  <ul class="hlist44">
+                    <li >
+                        <p class="Sttt">Join us</p>
+                    </li>
+                    <li >
+                        <a href="/"><img src="/Images/svgeus/instagraminst.svg"></a>
+                        <a href="/"><img src="/Images/svgeus/facebookface.svg"></a>
+                        <a href="/"><img src="/Images/svgeus/twittertwit.svg"></a>
+                        <a href="/"><img src="/Images/svgeus/telegramtg.svg"></a>
+                    </li>
+                </ul>
+              </nav>
+              </footer>
+              <script>
+                function show(state)
+                {
+                  document.getElementById('window').style.display = state;
+                  document.getElementById('gray').style.display = state;
+                }
+              </script>
+              <script>
+                function hide(state)
+                {
+                  document.getElementById('rt2').style.display = state;
+                  document.getElementById('rt3').style.display = state;
+                }
+              </script>
+</body>
+</html>
